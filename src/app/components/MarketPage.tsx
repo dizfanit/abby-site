@@ -26,12 +26,12 @@ import {
 import { toast } from "sonner";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
-const IMG_LAMINATE = "https://images.unsplash.com/photo-1617262869522-6740e6450f27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYW1pbmF0ZSUyMHdvb2QlMjBmbG9vcmluZyUyMHRleHR1cmV8ZW58MXx8fHwxNzcyMTEyMzU1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
-const IMG_TILES = "https://images.unsplash.com/photo-1760544137582-85c3300b794d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXRocm9vbSUyMHRpbGVzJTIwY2VyYW1pYyUyMG1vc2FpY3xlbnwxfHx8fDE3NzIxMTIzNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
-const IMG_TOOLS = "https://images.unsplash.com/photo-1770763233593-74dfd0da7bf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb3dlciUyMHRvb2xzJTIwZHJpbGwlMjB3b3Jrc2hvcHxlbnwxfHx8fDE3NzIxMTIzNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
-const IMG_PAINT = "https://images.unsplash.com/photo-1763741226847-f5ef0c846506?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwYWludCUyMGNhbnMlMjBjb2xvcmZ1bCUyMHJlbm92YXRpb258ZW58MXx8fHwxNzcyMTEyMzU2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
-const IMG_FAUCET = "https://images.unsplash.com/photo-1769763828411-eb09bb05d97f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxraXRjaGVuJTIwZmF1Y2V0JTIwY2hyb21lJTIwbW9kZXJufGVufDF8fHx8MTc3MjExMDAzOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
-const IMG_ELECTRICAL = "https://images.unsplash.com/photo-1762115106003-30a83b29f609?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVjdHJpY2FsJTIwd2lyaW5nJTIwaW5zdGFsbGF0aW9uJTIwY2FibGVzfGVufDF8fHx8MTc3MjExMjM1N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
+const IMG_LAMINATE = "/remote-images/unsplash-006.jpg&utm_source=figma&utm_medium=referral";
+const IMG_TILES = "/remote-images/unsplash-031.jpg";
+const IMG_TOOLS = "/remote-images/unsplash-048.jpg";
+const IMG_PAINT = "/remote-images/unsplash-042.jpg&utm_source=figma&utm_medium=referral";
+const IMG_FAUCET = "/remote-images/unsplash-045.jpg&utm_source=figma&utm_medium=referral";
+const IMG_ELECTRICAL = "/remote-images/unsplash-036.jpg";
 
 const categories = [
   { id: "stroymaterialy", label: "Стройматериалы", icon: Package, color: "#FA5108" },

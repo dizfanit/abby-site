@@ -28,7 +28,7 @@ import { toast } from "sonner";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { useAccount } from "./AccountContext";
 
-const IMG_CONTRACTOR = "https://images.unsplash.com/photo-1722876720000-f39b65b7d4a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBjb250cmFjdG9yJTIwcG9ydHJhaXQlMjBtYW58ZW58MXx8fHwxNzcyMDk5NTEzfDA&ixlib=rb-4.1.0&q=80&w=1080";
+const IMG_CONTRACTOR = "/remote-images/unsplash-017.jpg";
 
 const categories = [
   { id: "all", label: "Все", icon: Wrench },

@@ -21,10 +21,10 @@ import {
 import { toast } from "sonner";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
-const IMG1 = "https://images.unsplash.com/photo-1738168251394-9241984c8292?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMGxpdmluZyUyMHJvb218ZW58MXx8fHwxNzcyMDE4ODIyfDA&ixlib=rb-4.1.0&q=80&w=1080";
-const IMG2 = "https://images.unsplash.com/photo-1736390800504-d3963b553aa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBraXRjaGVuJTIwcmVub3ZhdGlvbnxlbnwxfHx8fDE3NzIwNDczMTh8MA&ixlib=rb-4.1.0&q=80&w=1080";
-const IMG3 = "https://images.unsplash.com/photo-1762418362644-a4daad168fb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXRocm9vbSUyMHJlbm92YXRpb24lMjBtb2Rlcm58ZW58MXx8fHwxNzcyMDI0NjQzfDA&ixlib=rb-4.1.0&q=80&w=1080";
-const IMG4 = "https://images.unsplash.com/photo-1582068019386-a943ee9287ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3p5JTIwc3R1ZGlvJTIwYXBhcnRtZW50JTIwYmVkcm9vbXxlbnwxfHx8fDE3NzIwOTk1MTN8MA&ixlib=rb-4.1.0&q=80&w=1080";
+const IMG1 = "/remote-images/unsplash-020.jpg";
+const IMG2 = "/remote-images/unsplash-019.jpg";
+const IMG3 = "/remote-images/unsplash-037.jpg";
+const IMG4 = "/remote-images/unsplash-004.jpg";
 
 const images = [IMG1, IMG2, IMG3, IMG4];
 

@@ -134,9 +134,9 @@ const CONDITION_GOODS = ["Новое", "Отличное", "Хорошее", "У
 const EXPERIENCE_YEARS = ["Без опыта", "1–2 года", "3–5 лет", "5–10 лет", "Более 10 лет"];
 
 const MOCK_PHOTOS = [
-  "https://images.unsplash.com/photo-1559329146-807aff9ff1fb?w=400&h=300&fit=crop",
-  "https://images.unsplash.com/photo-1738168251394-9241984c8292?w=400&h=300&fit=crop",
-  "https://images.unsplash.com/photo-1582068019386-a943ee9287ae?w=400&h=300&fit=crop",
+  "/remote-images/unsplash-002.jpg",
+  "/remote-images/unsplash-021.jpg",
+  "/remote-images/unsplash-005.jpg",
 ];
 
 // ─── Sub-components OUTSIDE main component to prevent remount on every render ─

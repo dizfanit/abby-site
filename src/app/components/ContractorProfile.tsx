@@ -27,9 +27,9 @@ import { toast } from "sonner";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { useAccount } from "./AccountContext";
 
-const IMG_KITCHEN = "https://images.unsplash.com/photo-1736390800504-d3963b553aa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBraXRjaGVuJTIwcmVub3ZhdGlvbnxlbnwxfHx8fDE3NzIwNDczMTh8MA&ixlib=rb-4.1.0&q=80&w=1080";
-const IMG_BATH = "https://images.unsplash.com/photo-1762418362644-a4daad168fb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXRocm9vbSUyMHJlbm92YXRpb24lMjBtb2Rlcm58ZW58MXx8fHwxNzcyMDI0NjQzfDA&ixlib=rb-4.1.0&q=80&w=1080";
-const IMG_LIVING = "https://images.unsplash.com/photo-1738168251394-9241984c8292?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMGxpdmluZyUyMHJvb218ZW58MXx8fHwxNzcyMDE4ODIyfDA&ixlib=rb-4.1.0&q=80&w=1080";
+const IMG_KITCHEN = "/remote-images/unsplash-019.jpg";
+const IMG_BATH = "/remote-images/unsplash-037.jpg";
+const IMG_LIVING = "/remote-images/unsplash-020.jpg";
 
 const portfolio = [
   { img: IMG_KITCHEN, title: "Кухня 15 м² — ЖК Солнечный", duration: "14 дней" },

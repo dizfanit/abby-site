@@ -344,10 +344,10 @@ function AccountDropdownContent({
 
 // ─── Category tabs data ──────────────────────────────────────────────────────
 const categoryTabs = [
-  { id: "realestate", label: "Недвижимость", count: "12 333", img: "https://images.unsplash.com/photo-1761135125354-d024f37d04ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWFsJTIwZXN0YXRlJTIwaG91c2UlMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDF8fHx8MTc3MjEwNzg3N3ww&ixlib=rb-4.1.0&q=80&w=1080", to: "/realestate", icon: Building2 },
-  { id: "services", label: "Услуги / Подрядчики", count: "485", img: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwbHVtYmVyJTIwZWxlY3RyaWNpYW4lMjByZXBhaXJ8ZW58MXx8fHwxNzcyMTA3ODc3fDA&ixlib=rb-4.1.0&q=80&w=1080", to: "/services", icon: Wrench },
-  { id: "market", label: "Маркет / Товары", count: "2 140", img: "https://images.unsplash.com/photo-1761718061033-2cdc5b3ec64d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBidWlsZGluZyUyMG1hdGVyaWFscyUyMHN0b3JlfGVufDF8fHx8MTc3MjAyODA1Nnww&ixlib=rb-4.1.0&q=80&w=1080", to: "/market", icon: ShoppingCart },
-  { id: "jobs", label: "Вакансии / Работа", count: "43 076", img: "https://images.unsplash.com/photo-1761227447538-f4e1ec0a9df6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjB3b3JrZXJzJTIwaGFyZCUyMGhhdHMlMjB0ZWFtfGVufDF8fHx8MTc3MjExMjM1NXww&ixlib=rb-4.1.0&q=80&w=1080", to: "/jobs", icon: Briefcase },
+  { id: "realestate", label: "Недвижимость", count: "12 333", img: "/remote-images/unsplash-032.jpg", to: "/realestate", icon: Building2 },
+  { id: "services", label: "Услуги / Подрядчики", count: "485", img: "/remote-images/unsplash-008.jpg", to: "/services", icon: Wrench },
+  { id: "market", label: "Маркет / Товары", count: "2 140", img: "/remote-images/unsplash-034.jpg", to: "/market", icon: ShoppingCart },
+  { id: "jobs", label: "Вакансии / Работа", count: "43 076", img: "/remote-images/unsplash-033.jpg", to: "/jobs", icon: Briefcase },
 ];
 
 // ─── Layout ─────────────────────────────────────────────────────────────────���──

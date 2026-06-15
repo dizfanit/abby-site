@@ -17,9 +17,9 @@ import {
 } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
-const IMG1 = "https://images.unsplash.com/photo-1738168251394-9241984c8292?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMGxpdmluZyUyMHJvb218ZW58MXx8fHwxNzcyMDE4ODIyfDA&ixlib=rb-4.1.0&q=80&w=1080";
-const IMG2 = "https://images.unsplash.com/photo-1736390800504-d3963b553aa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBraXRjaGVuJTIwcmVub3ZhdGlvbnxlbnwxfHx8fDE3NzIwNDczMTh8MA&ixlib=rb-4.1.0&q=80&w=1080";
-const IMG3 = "https://images.unsplash.com/photo-1559329146-807aff9ff1fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcGFydG1lbnQlMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDF8fHx8MTc3MjA2NDczMHww&ixlib=rb-4.1.0&q=80&w=1080";
+const IMG1 = "/remote-images/unsplash-020.jpg";
+const IMG2 = "/remote-images/unsplash-019.jpg";
+const IMG3 = "/remote-images/unsplash-001.jpg";
 
 const categories = [
   { id: "all", label: "Все", icon: BookOpen },

@@ -120,14 +120,14 @@ function VerticalPropertyCard({ listing }: { listing: typeof LISTINGS[0] }) {
         <div className="relative overflow-hidden" style={{ height: 260, borderRadius: "10px 10px 0 0" }}>
           <img
             src={({
-              "1": "https://images.unsplash.com/photo-1663756915301-2ba688e078cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcGFydG1lbnQlMjBpbnRlcmlvciUyMGxpdmluZyUyMHJvb20lMjBtb2Rlcm58ZW58MXx8fHwxNzcyMjAwNDE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-              "2": "https://images.unsplash.com/photo-1661796428175-55423b19409f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcGFydG1lbnQlMjBiZWRyb29tJTIwaW50ZXJpb3IlMjBkZXNpZ24lMjBjb3p5fGVufDF8fHx8MTc3MjIxMDY2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-              "3": "https://images.unsplash.com/photo-1759691337957-ebc9ed54dc44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBraXRjaGVuJTIwYXBhcnRtZW50JTIwaW50ZXJpb3IlMjByZW5vdmF0aW9ufGVufDF8fHx8MTc3MjIxMDY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
-              "4": "https://images.unsplash.com/photo-1571164860029-856acbc24b4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHVkaW8lMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMHNjYW5kaW5hdmlhbnxlbnwxfHx8fDE3NzIyMTA2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-              "5": "https://images.unsplash.com/photo-1758800601486-75c3865cc9a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMHBhbm9yYW1pYyUyMHdpbmRvd3xlbnwxfHx8fDE3NzIyMTA2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-              "6": "https://images.unsplash.com/photo-1763485956070-431fca7bc030?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcGFydG1lbnQlMjBiYXRocm9vbSUyMGludGVyaW9yJTIwbW9kZXJuJTIwdGlsZXN8ZW58MXx8fHwxNzcyMjEwNjcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-              "7": "https://images.unsplash.com/photo-1759647020668-648cd90ddce4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3p5JTIwbGl2aW5nJTIwcm9vbSUyMHNvZmElMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwxfHx8fDE3NzIyMTA2NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-              "8": "https://images.unsplash.com/photo-1663756915301-2ba688e078cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcGFydG1lbnQlMjBpbnRlcmlvciUyMGxpdmluZyUyMHJvb20lMjBtb2Rlcm58ZW58MXx8fHwxNzcyMjAwNDE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+              "1": "/remote-images/unsplash-012.jpg",
+              "2": "/remote-images/unsplash-010.jpg",
+              "3": "/remote-images/unsplash-028.jpg",
+              "4": "/remote-images/unsplash-003.jpg",
+              "5": "/remote-images/unsplash-025.jpg",
+              "6": "/remote-images/unsplash-041.jpg",
+              "7": "/remote-images/unsplash-027.jpg",
+              "8": "/remote-images/unsplash-012.jpg",
             } as Record<string, string>)[listing.id] ?? listing.photos[0]}
             alt={listing.title}
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"

@@ -28,38 +28,38 @@ import imgVertical  from "figma:asset/b2dedbcd6f8a1ddd7a68a487b9c1072dd338295b.p
 import img43641     from "figma:asset/0d910ae6b504d56e57c3c721fbc70a21287e7787.png";
 
 // ─── Market images (Unsplash) ─────────────────────────────────────────────────
-const IMG_LAMINATE   = "https://images.unsplash.com/photo-1617262869522-6740e6450f27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYW1pbmF0ZSUyMHdvb2QlMjBmbG9vcmluZyUyMHRleHR1cmV8ZW58MXx8fHwxNzcyMTEyMzU1fDA&ixlib=rb-4.1.0&q=80&w=1080";
-const IMG_TILES      = "https://images.unsplash.com/photo-1760544137582-85c3300b794d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXRocm9vbSUyMHRpbGVzJTIwY2VyYW1pYyUyMG1vc2FpY3xlbnwxfHx8fDE3NzIxMTIzNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080";
-const IMG_TOOLS      = "https://images.unsplash.com/photo-1770763233593-74dfd0da7bf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb3dlciUyMHRvb2xzJTIwZHJpbGwlMjB3b3Jrc2hvcHxlbnwxfHx8fDE3NzIxMTIzNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080";
-const IMG_PAINT      = "https://images.unsplash.com/photo-1763741226847-f5ef0c846506?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwYWludCUyMGNhbnMlMjBjb2xvcmZ1bCUyMHJlbm92YXRpb258ZW58MXx8fHwxNzcyMTEyMzU2fDA&ixlib=rb-4.1.0&q=80&w=1080";
-const IMG_FAUCET     = "https://images.unsplash.com/photo-1769763828411-eb09bb05d97f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxraXRjaGVuJTIwZmF1Y2V0JTIwY2hyb21lJTIwbW9kZXJufGVufDF8fHx8MTc3MjExMDAzOXww&ixlib=rb-4.1.0&q=80&w=1080";
-const IMG_ELECTRICAL = "https://images.unsplash.com/photo-1762115106003-30a83b29f609?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVjdHJpY2FsJTIwd2lyaW5nJTIwaW5zdGFsbGF0aW9uJTIwY2FibGVzfGVufDF8fHx8MTc3MjExMjM1N3ww&ixlib=rb-4.1.0&q=80&w=1080";
+const IMG_LAMINATE   = "/remote-images/unsplash-006.jpg";
+const IMG_TILES      = "/remote-images/unsplash-030.jpg";
+const IMG_TOOLS      = "/remote-images/unsplash-047.jpg";
+const IMG_PAINT      = "/remote-images/unsplash-042.jpg";
+const IMG_FAUCET     = "/remote-images/unsplash-045.jpg";
+const IMG_ELECTRICAL = "/remote-images/unsplash-035.jpg";
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
 const RE_LISTINGS = [
   { id: "r1", title: "1-к квартира, 64,2м", sup: "2", floor: "5/9 эт.", price: "7 420 000 ₽",
     city: "Калининград", badge: "Новостройка",
-    photo: "https://images.unsplash.com/photo-1663756915301-2ba688e078cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcGFydG1lbnQlMjBpbnRlcmlvciUyMGxpdmluZyUyMHJvb20lMjBtb2Rlcm58ZW58MXx8fHwxNzcyMjAwNDE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    photo: "/remote-images/unsplash-012.jpg",
     photoCount: 4 },
   { id: "r2", title: "2-к квартира, 59,2м", sup: "2", floor: "2/9 эт.", price: "6 600 000 ₽",
     city: "Калининград", badge: null,
-    photo: "https://images.unsplash.com/photo-1661796428175-55423b19409f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcGFydG1lbnQlMjBiZWRyb29tJTIwaW50ZXJpb3IlMjBkZXNpZ24lMjBjb3p5fGVufDF8fHx8MTc3MjIxMDY2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    photo: "/remote-images/unsplash-010.jpg",
     photoCount: 4 },
   { id: "r3", title: "Студия, 28,5м", sup: "2", floor: "4/16 эт.", price: "3 900 000 ₽",
     city: "Калининград", badge: "Топ",
-    photo: "https://images.unsplash.com/photo-1759691337957-ebc9ed54dc44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBraXRjaGVuJTIwYXBhcnRtZW50JTIwaW50ZXJpb3IlMjByZW5vdmF0aW9ufGVufDF8fHx8MTc3MjIxMDY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    photo: "/remote-images/unsplash-028.jpg",
     photoCount: 3 },
   { id: "r4", title: "2-к квартира, 59,2м", sup: "2", floor: "2/9 эт.", price: "6 600 000 ₽",
     city: "Зеленоградск", badge: null,
-    photo: "https://images.unsplash.com/photo-1571164860029-856acbc24b4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHVkaW8lMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMHNjYW5kaW5hdmlhbnxlbnwxfHx8fDE3NzIyMTA2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    photo: "/remote-images/unsplash-003.jpg",
     photoCount: 4 },
   { id: "r5", title: "3-к квартира, 76,0м", sup: "2", floor: "8/12 эт.", price: "9 850 000 ₽",
     city: "Светлогорск", badge: "Срочно",
-    photo: "https://images.unsplash.com/photo-1758800601486-75c3865cc9a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMHBhbm9yYW1pYyUyMHdpbmRvd3xlbnwxfHx8fDE3NzIyMTA2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    photo: "/remote-images/unsplash-025.jpg",
     photoCount: 5 },
   { id: "r6", title: "4-к квартира, 112м", sup: "2", floor: "10/18 эт.", price: "14 200 000 ₽",
     city: "Калининград", badge: "VIP",
-    photo: "https://images.unsplash.com/photo-1759647020668-648cd90ddce4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3p5JTIwbGl2aW5nJTIwcm9vbSUyMHNvZmElMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwxfHx8fDE3NzIyMTA2NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    photo: "/remote-images/unsplash-027.jpg",
     photoCount: 6 },
 ];
 

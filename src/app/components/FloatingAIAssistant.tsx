@@ -17,8 +17,8 @@ const knowledgeBase: { keywords: string[]; response: AIResult }[] = [
     response: {
       text: "Нашёл для вас актуальные варианты квартир в Калининграде 🏠",
       cards: [
-        { title: "1-к квартира, 42 м²", price: "4 750 000 ₽", desc: "Светлогорск, 3/9 эт, новостройка", link: "/realestate", img: "https://images.unsplash.com/photo-1663756915301-2ba688e078cf?w=400" },
-        { title: "2-к квартира, 64 м²", price: "7 200 000 ₽", desc: "Калининград, ул. Победы, 7/12 эт", link: "/realestate", img: "https://images.unsplash.com/photo-1715985160053-d339e8b6eb94?w=400" },
+        { title: "1-к квартира, 42 м²", price: "4 750 000 ₽", desc: "Светлогорск, 3/9 эт, новостройка", link: "/realestate", img: "/remote-images/unsplash-013.jpg" },
+        { title: "2-к квартира, 64 м²", price: "7 200 000 ₽", desc: "Калининград, ул. Победы, 7/12 эт", link: "/realestate", img: "/remote-images/unsplash-016.jpg" },
       ],
       actions: [{ label: "Все квартиры", link: "/realestate" }, { label: "Фильтры поиска", link: "/realestate" }],
     },
